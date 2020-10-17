@@ -5,11 +5,12 @@ public class HouseClient {
 
         HouseTemplate houseType = new WoodenHouse();
 
-        //using template method
+        
         houseType.buildHouse();
         System.out.println("************");
 
         houseType = new GlassHouse();
+        houseType = new WoodencoatedHouse();
 
         houseType.buildHouse();
     }
