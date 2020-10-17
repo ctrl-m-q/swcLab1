@@ -9,7 +9,6 @@ public class WoodcoatedHouse extends HouseTemplate {
     public void buildPillars() {
         System.out.println("Building Pillars with Wood coating");
     }
-    public void buildLintels(){
-        System.out.println("Building lintels");
+`1Q
 
 }
